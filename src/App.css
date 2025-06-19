@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --spacing-mContainer: 1210px; 
+
+  /* Colors */
+  --color-bgColor: #4B164C;
+  --color-primaryC: #09122C;
+  --color-buttonC: #85A947;
+  /* Colors */
+}
