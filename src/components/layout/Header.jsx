@@ -33,24 +33,41 @@ const Header = () => {
               <ul
                 tabIndex={0}
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-4 shadow bg-primaryC rounded-box text-white text-[14px] font-bold space-y-2">
+            <Link to="/">
                 <li className="hover:text-buttonC after:content-[''] after:block after:w-0 after:h-[2px] after:bg-bgColor after:transition-all after:duration-300 hover:after:w-full">
                   <a>HOME</a>
                 </li>
+              </Link>
+
+              <Link to="/MySkill">
                 <li className="hover:text-buttonC after:content-[''] after:block after:w-0 after:h-[2px] after:bg-bgColor after:transition-all after:duration-300 hover:after:w-full">
                   <a>SKILLS</a>
                 </li>
+              </Link>
+
+              <Link to="/MyServices">
                 <li className="hover:text-buttonC after:content-[''] after:block after:w-0 after:h-[2px] after:bg-bgColor after:transition-all after:duration-300 hover:after:w-full">
                   <a>SERVICES</a>
                 </li>
+              </Link>
+
+              <Link to="/Projects">
                 <li className="hover:text-buttonC after:content-[''] after:block after:w-0 after:h-[2px] after:bg-bgColor after:transition-all after:duration-300 hover:after:w-full">
                   <a>PROJECTS</a>
                 </li>
+              </Link>
+
+              <Link to="/Testimonials">
                 <li className="hover:text-buttonC after:content-[''] after:block after:w-0 after:h-[2px] after:bg-bgColor after:transition-all after:duration-300 hover:after:w-full">
                   <a>REVIEWS</a>
                 </li>
+              </Link>
+
+              <Link to="/Contact">
                 <li className="hover:text-buttonC after:content-[''] after:block after:w-0 after:h-[2px] after:bg-bgColor after:transition-all after:duration-300 hover:after:w-full">
                   <a>CONTACT</a>
                 </li>
+              </Link>
               </ul>
             </div>
             <h3 className="text-[22px] text-white font-bold">
@@ -101,7 +118,7 @@ const Header = () => {
 
           {/* Navbar End */}
           <div className="navbar-end  ">
-            <button className="bg-buttonC py-3 px-6 text-white font-bold text-[14px] rounded-full hover:scale-105 transition-all duration-300">
+            <button className="bg-buttonC hidden md:block py-3 px-6 text-white font-bold text-[14px] rounded-full hover:scale-105 transition-all duration-300">
               Contact Me
             </button>
           </div>

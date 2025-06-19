@@ -20,7 +20,7 @@ const Banner = () => {
         <Container>
           <Flex>
             <div className="grid grid-cols-1 w-full md:w-full md:grid-cols-2">
-              <div className=" mx-auto sm:mx-0 z-10  mt-[60px] bg-primaryC rounded-[10px] p-25 md:p-15  md:fixed md:top-12 md:left-15" style={{ boxShadow: '0px  3px 5px rgba(0, 255, 0, 0.5)' }}>
+              <div className=" mx-auto sm:mx-0 z-10 w-full  sm:w-auto mt-[60px] bg-primaryC rounded-[10px] p-25 md:p-15  md:fixed md:top-12 md:left-15" style={{ boxShadow: '0px  3px 5px rgba(0, 255, 0, 0.5)' }}>
                 <Image
                   imgSrc={imageBanner}
                   className="w-[150px] h-[150px] mx-auto rounded-[50%] border-3 border-bgColor"
@@ -38,24 +38,24 @@ const Banner = () => {
                   <FaSquareInstagram />
                 </div>
                 <div className="py-5 w-full border-b-1 border-bgColor">
-                  <div className="flex text-white justify-between ">
+                  <div className="md:flex text-white justify-between ">
                     <h3>Country :</h3>
                     <p>Bangladesh</p>
                   </div>
-                  <div className="flex text-white justify-between w-full">
+                  <div className="md:flex mt-5 sm:mt-0 text-white justify-between w-full">
                     <h3>City :</h3>
                     <p>Dhaka</p>
                   </div>
-                  <div className="flex text-white justify-between w-full">
+                  <div className="md:flex mt-5 sm:mt-0 text-white justify-between w-full">
                     <h3>Age :</h3>
                     <p>35</p>
                   </div>
                 </div>
               </div>
 
-              <div className="text-white mx-auto md:mx-0 text-center sm:text-left  mt-[30px] md:pl-[420px] md:py-[150px] z-10">
+              <div className="text-white mx-auto w-full md:mx-0 text-center sm:text-left  mt-[30px] md:pl-[420px] md:py-[150px] z-10">
                 <h4 className="text-[18px] md:w-[200px]">Hi my new friend!</h4>
-                <h1 className="text-[70px] font-bold w-[450px] pb-5">
+                <h1 className="text-[50px] w-full sm:w-[500px] sm:text-[70px] font-bold  pb-5">
                   Discover my art space!
                 </h1>
 
