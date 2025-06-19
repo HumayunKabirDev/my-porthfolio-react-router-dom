@@ -20,7 +20,7 @@ const Banner = () => {
         <Container>
           <Flex>
             <div className="grid grid-cols-1 w-full md:w-full md:grid-cols-2">
-              <div className=" mx-auto sm:mx-0 z-10 w-full  sm:w-auto mt-[60px] bg-primaryC rounded-[10px] p-25 md:p-15  md:fixed md:top-12 md:left-15" style={{ boxShadow: '0px  3px 5px rgba(0, 255, 0, 0.5)' }}>
+              <div data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-sine" className=" mx-auto sm:mx-0 z-10 w-full  sm:w-auto mt-[60px] bg-primaryC rounded-[10px] p-25 md:p-15  md:fixed md:top-12 md:left-15" style={{ boxShadow: '0px  3px 5px rgba(0, 255, 0, 0.5)' }}>
                 <Image
                   imgSrc={imageBanner}
                   className="w-[150px] h-[150px] mx-auto rounded-[50%] border-3 border-bgColor"
@@ -53,7 +53,7 @@ const Banner = () => {
                 </div>
               </div>
 
-              <div className="text-white mx-auto w-full md:mx-0 text-center sm:text-left  mt-[30px] md:pl-[420px] md:py-[150px] z-10">
+              <div data-aos="zoom-in"  data-aos-duration="800" data-aos-easing="ease-in-sine" className="text-white mx-auto w-full md:mx-0 text-center sm:text-left  mt-[30px] md:pl-[420px] md:py-[150px] z-10">
                 <h4 className="text-[18px] md:w-[200px]">Hi my new friend!</h4>
                 <h1 className="text-[50px] w-full sm:w-[500px] sm:text-[70px] font-bold  pb-5">
                   Discover my art space!

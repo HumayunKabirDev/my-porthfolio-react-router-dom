@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="bg-primaryC pb-[80px] p-5  text-white">
       <Container>
-        <div className="md:pl-[420px] px-5 py-5 sm:w-full">
+        <div data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="ease-in-sine" className="md:pl-[420px] px-5 py-5 sm:w-full">
           <h4 className="text-[30px] pb-5 font-bold">Contact Me</h4>
           <form className="w-full md:w-full bg-bgColor rounded-[10px] border  shadow-md shadow-green-500 p-10">
               <label class="block text-sm font-medium">Enter Name :</label>

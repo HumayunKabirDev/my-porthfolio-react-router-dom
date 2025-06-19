@@ -24,15 +24,16 @@ const Testimonials = () => {
   return (
     <div className="bg-bgColor pb-[80px] p-5  text-white">
       <Container>
-        <div className="flex items-center pb-10 justify-between md:pl-[420px] px-5  sm:w-full">
+        <div data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-sine" className="flex items-center pb-10 justify-between md:pl-[420px] px-5  sm:w-full">
           <h4 className="relative font-bold text-white  text-[24px] after:content-[''] after:absolute after:top-[20px] after:ml-5 after:h-[2px] after:bg-primaryC after:w-[250px] ">
             Testimonials
           </h4>
           <h5 className="text-[16px] text-white font-semibold">3</h5>
         </div>
+
         <div className=" md:pl-[420px] px-5  sm:w-full">
           <Slider {...settings}>
-            <div className="px-5">
+            <div data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" className="px-5">
               <div className="text-center bg-primaryC p-15 px-5  rounded-[10px]">
                 <Image
                   className="rounded-full w-[80px] h-[80px] mx-auto"

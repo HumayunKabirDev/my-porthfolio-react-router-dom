@@ -16,13 +16,13 @@ const MySkill = () => {
   return (
     <div className="bg-bgColor pb-[50px] px-5 text-white">
       <Container>
-        <div className="flex items-center pb-10 justify-between md:pl-[420px] sm:w-full">
+        <div data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-sine" className="flex items-center pb-10 justify-between md:pl-[420px] sm:w-full">
           <h4 className="relative font-bold text-white  text-[24px] after:content-[''] after:absolute after:top-[20px] after:ml-5 after:h-[2px] after:bg-primaryC after:w-[250px] ">
             My Skill
           </h4>
           <h5 className="text-[16px] text-white font-semibold">2</h5>
         </div>
-        <div className="md:w-2/3 md:ml-[420px] mx-auto">
+        <div data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" className="md:w-2/3 md:ml-[420px] mx-auto">
           <div className=" grid grid-cols-2 md:grid-cols-3 w-full gap-5 px-5">
             <Card imgSrc={htmlImg} Title={"HTML"} Level={"95%"} />
             <Card imgSrc={cssImg} Title={"CSS"} Level={"90%"} />
