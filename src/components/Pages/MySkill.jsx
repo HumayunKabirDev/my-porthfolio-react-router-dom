@@ -23,7 +23,7 @@ const MySkill = () => {
           <h5 className="text-[16px] text-white font-semibold">2</h5>
         </div>
         <div data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" className="md:w-2/3 md:ml-[420px] mx-auto">
-          <div className=" grid grid-cols-2 md:grid-cols-3 w-full gap-5 px-5">
+          <div className=" grid grid-cols-1 md:grid-cols-3 w-full gap-5 px-5">
             <Card imgSrc={htmlImg} Title={"HTML"} Level={"95%"} />
             <Card imgSrc={cssImg} Title={"CSS"} Level={"90%"} />
             <Card imgSrc={jsImg} Title={"JavaScript"} Level={"75%"} />
